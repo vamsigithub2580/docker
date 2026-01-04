@@ -21,8 +21,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t vamsi8121/node-app-mongo:latest .
+          docker build -t vamsi8121/node-app:latest .
 
       - name: Push Docker image
         run: |
-          docker push vamsi8121/node-app-mongo:latest
+          docker push vamsi8121/node-app:latest
